@@ -3,6 +3,7 @@
 # 🎵 Download Progress UI — DOM Project
 
 This is a **DOM-based interactive project** where users can simulate downloading a file with a **dynamic progress bar**, glowing animation message, and a **fullscreen looping video background**.
+
 A smooth blend of **JavaScript DOM manipulation**, **CSS animations**, and **modern UI design**. 🚀
 
 ---
@@ -10,11 +11,17 @@ A smooth blend of **JavaScript DOM manipulation**, **CSS animations**, and **mod
 ## 🌟 Features
 
 ✔️ Animated download progress bar
+
 ✔️ Random download duration
+
 ✔️ Glowing “Download Complete” effect
+
 ✔️ Button disables during download
+
 ✔️ Glassmorphism card design
+
 ✔️ Fullscreen looping video background
+
 ✔️ Smooth & responsive UI
 
 ---
@@ -36,9 +43,13 @@ DOM-TASK-2/
 ## 🧠 How It Works
 
 🔹 Click **Download** button
+
 🔹 A random time between **5–10 seconds** is generated
+
 🔹 Progress bar updates from **0% → 100%**
+
 🔹 Button becomes inactive during progress
+
 🔹 After completion, shows **Download Complete ✔️**
 
 ---
@@ -69,10 +80,15 @@ Open `index.html` in your browser.
 ## 💡 What I Learned
 
 ✨ DOM updates using JavaScript
+
 ✨ Dynamic progress bar creation
+
 ✨ setInterval() & setTimeout() handling
+
 ✨ UI/UX improvement with animations
+
 ✨ Video as background
+
 ✨ Button state control
 
 ---
@@ -80,6 +96,7 @@ Open `index.html` in your browser.
 ## 👨‍💻 Author
 
 **Vikas Kumar**
+
 🔗 **LinkedIn:** [https://www.linkedin.com/in/vikas0905/](https://www.linkedin.com/in/vikas0905/)
 
 🔗 **GitHub:** [https://github.com/vikaskumar098](https://github.com/vikaskumar098)
