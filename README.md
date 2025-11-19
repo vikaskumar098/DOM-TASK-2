@@ -19,15 +19,7 @@ A smooth blend of **JavaScript DOM manipulation**, **CSS animations**, and **mod
 
 ---
 
-## 📸 Screenshots
 
-
-```
-<img width="1859" height="1033" alt="image" src="https://github.com/user-attachments/assets/12f649d7-e4f5-4c9b-8cdb-17d3359c815c" />
-
-```
-
----
 
 ## 📂 Project Structure
 
