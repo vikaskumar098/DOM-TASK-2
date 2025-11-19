@@ -1,6 +1,6 @@
 
 
-# 🎵 Download Progress UI — DOM Project
+# 🎵 Download Progress UI - DOM Project
 
 This is a **DOM-based interactive project** where users can simulate downloading a file with a **dynamic progress bar**, glowing animation message, and a **fullscreen looping video background**.
 
@@ -106,7 +106,9 @@ Open `index.html` in your browser.
 ## ⭐ Support
 
 If you found this helpful:
+
 ✔️ Star ⭐ the repo
+
 ✔️ Follow for more DOM + JS projects
 
 ---
