@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+
+    video{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        // z-index: -1;
+    }
+
+
+
+    .card {
+        width: 550px;
+        background-color: transparent;
+        border-radius: 10px;
+        padding: 30px ;
+        box-shadow: 0 0 5px rgba(121, 120, 120, 0.642);   
+        backdrop-filter: blur(8px);   
+        z-index: 1;
+        margin-right: 60%;
+        margin-top: -20%;
+
+        #msg{
+            text-align: center;
+            font-size: 25px;
+            color: rgb(206, 223, 172);
+            margin-top: 20px;
+        
+            animation: glow 1.0s ease-in-out infinite;
+        }
+        
+
+
+
+        p{
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 30px;
+            font-weight: 500;
+            color: white;
+            
+            
+        } 
+
+        span{
+            font-weight: 800;
+            font-size: 35px;
+            color: rgb(75, 109, 233);
+        }
+        
+    }
+
+
+    .outer {
+        height: 20px;
+        border-radius: 50px;
+        width: 100%;
+        background-color: rgb(184, 184, 184);
+    }
+
+
+    .inner {
+        height: 100%;
+        width: 0%;
+        border-radius: 50px;
+        background-color: rgb(220, 60, 16);
+    }
+
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        
+
+        h2{
+            font-size: 40px;
+            color: white;
+            
+
+        }
+
+
+        
+        button{
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            background-color: royalblue;
+            color: white;
+            cursor: pointer;
+
+            
+        }
+
+        button:active{
+            scale: 0.95;
+
+        }
+    }
+
+    
+
+}
+
+@keyframes glow{
+    from{
+        text-shadow: 0px 0px 5px rgba(254, 254, 3, 0.97), 0px 0px 10px #000;
+    }
+    to{
+        text-shadow: 0px 0px 20px rgba(254, 254, 3, 0.97), 0px 0px 25px #000;
+    }
+}
+
+
+
+
